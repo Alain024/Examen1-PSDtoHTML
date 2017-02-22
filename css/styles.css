@@ -24,7 +24,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 150px;
 	color: white;
-	width: 55%;
+	width: 54%;
 	margin:0 auto;
 }
 
@@ -37,19 +37,20 @@ body {
 	margin-bottom: 43px;
 }
 
-
-h3 {
-	font-family: 'Open Sans', sans-serif;
+#what-we-do hgroup h3 {
+	font-family: 'Montserrat', sans-serif;
 	font-size: 24px;
-	padding: 20px 0px;
+	padding: 0px auto 41px auto;
 	font-weight: bold;
 }
 
-h4 {
+#what-we-do hgroup h4 {
 	font-family: 'Kaushan Script', cursive;
 	font-size: 21px;
-	padding: 20px 0px;
+	padding: 91px 0px 24px 0px;
+	padding-top:91px;
 }
+
 
 .floatL {
 	float: left;
@@ -59,8 +60,12 @@ h4 {
 	clear: both;
 }
 
+.img-container {
+	width: 100%;
+}
+
 div.text-center img {
-	padding:50px 0px 50px 14px;
+	padding: 0px 14px 0px 0px;
 }
 
 nav {
@@ -91,16 +96,6 @@ nav {
 	display: inline-block;
 }
 
-#logo a {
-	text-decoration: none;
-	color: white;
-	font-weight: bold;
-	font-size: 20px;
-	width: 2%;
-	padding: 29px 0px 0px 2px;
-	display: inline-block;
-}
-
 nav ul li {
 	float: left;
 	padding: 40px 0px 0px 57px;
@@ -118,25 +113,18 @@ nav a {
 	padding-bottom: 12px;
 }
 
-#what-we-do {
-	height: 600px;
-}
-
-/*span:before {
-	content: "_";
-	width: 60px;
-	font-size: 150px;
-	color: white;
-}*/
 
 .btn-more {
 	border: 3px solid #fff;
-	padding: 12px 16px;
+	padding: 9px 30px;
 	background-color: rgba(0,0,0,0);
-	font-size: 14px;
+	font-size: 13px;
+	font-weight: bold;
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	cursor: pointer;
+	width: 160px;
+	height: 40px;
 }
 
 .second-navigation {
@@ -155,7 +143,6 @@ nav a {
 	margin-right: 30px;
 	text-align: left;
 	padding-top: 25px;
-	/*margin-bottom: 28px;*/
 	color: #fff;
 	font-size: 13px;
 	position: relative;
@@ -182,18 +169,58 @@ nav a {
 	margin: 71px auto 50px auto;
 }	
 
-.litte-dash {
-	width: 60px;
+.little-rdash {
+	width: 59px;
+	height: 3px;
 	background-color: #EF847B;
+	margin: 41px auto 47px auto;
 }
+
+
+#what-we-do {
+	height: 600px;
+	width: 1190px;
+	margin: 0 auto;
+}
+
+.grey-text {
+	margin: 104px auto 104px auto;
+	color: #999999;
+	width: 80%;
+}
+
 
 #about-us {
 	height: 225px;
 	background: #94E7D6;
 }
 
-.stats {
-	border-left: 1px solid white;
+.turquesaBg {
+	margin-top: 111px;
+	background-color: #95e1d3;
+	width: 100%;
+	height: 270px;
+	/*margin: 110px 0px 109px 0px;*/
+}
+
+.turquesaBg .firstP {
+	font-size: 72px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #fff;
+	padding: 89px 69px 0px 78px;
+	
+}
+
+.turquesaBg p {
+	color: #fff;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 29px;
+}
+
+.borderL {
+	/*border-left: 1px solid #fff;*/
 }
 
 .text-center {
@@ -201,6 +228,33 @@ nav a {
 }
 
 #services {
-
+	height: 650px;
+	width: 100%;
 }
 
+
+#services h4 {
+	margin-top: 109px;
+	margin-bottom: 23px;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 24px;
+}
+
+#services h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#services ul {
+	width: 100%;
+	height: 50px;
+}
+
+#services ul li {
+	float: left;
+}
+
+.clearfix {
+  overflow: auto;
+}
